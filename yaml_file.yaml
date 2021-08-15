@@ -1,0 +1,17 @@
+#WRITE YAML FILE
+file_type: csv
+file_name: yelp_academic_dataset_review
+dataset_name: df
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:  
+    - user_id
+    - text
+    - date
+    - review_id
+    - business_id
+    - funny
+    - cool
+    - useful
+    - stars
